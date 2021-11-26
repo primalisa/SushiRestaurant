@@ -1,0 +1,44 @@
+body
+{
+/* while shrinking or minimizing half video  */
+  height: 100%;
+}
+h1
+{
+  color: #181D31;
+
+}
+p
+{
+  color: #181D31;
+}
+video
+{
+  position: fixed;
+  top:50%;
+  left: 50%;
+  margin-top: -50%;
+  margin-left: -50%;
+  /* which object should be above what 1 DIV 2 */
+  z-index:1;
+}
+div
+{
+
+  position: relative;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+  z-index: 2;
+
+}
+a
+{
+  display: inline-block;
+  border: solid 4px;
+  border-color: #66806A;
+  color: #181D31;
+  background-color: #B4C6A6;
+  padding: 7px 14px;
+  border-radius: 25%;
+}
